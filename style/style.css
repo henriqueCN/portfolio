@@ -1,0 +1,394 @@
+
+*{
+  margin: 0px;
+  padding:0px;
+}
+.logo{
+width:auto;
+position:absolute;
+top:2%;
+left:43%;
+}
+
+.div_imagem_inicial{
+  display: none;
+}
+.imagem_inicial_pequeno{
+  display: none;
+}
+
+.links{
+  text-decoration: none; 
+  color: grey;
+
+}
+ul {
+    padding-top: 5%;
+    list-style-type: none;
+    overflow: hidden;
+    float: right; 
+    margin-left: 2%;
+}
+
+li {
+    float: left;
+
+
+}
+
+li a {
+    display: block;
+    color: grey;
+    text-align: center;
+    padding: 14px 16px 12px 20px;
+    text-decoration: none;
+
+    
+}
+
+li a:hover {
+    color: #104E8B;
+    border-bottom: 1px solid grey;
+}
+
+.descri{
+   
+
+}
+.descri:hover{
+
+
+}
+
+/* Standard syntax */
+@keyframes animacao {
+    
+    0%  {top:0px;}
+    50%  {top:20px;}
+    
+}
+
+
+.quadrinho_agenda{
+  display: inline-block;
+  background-color: transparent;
+  width: 30%;
+  margin-bottom: 10%;
+  height: 500px;
+  box-shadow:3px 3px 3px 3px rgba(50, 50, 50, 50);
+}
+.quadrinho_agenda:hover{
+  -webkit-animation-name: animacao; /* Safari 4.0 - 8.0 */
+  -webkit-animation-duration: 0.5s; /* Safari 4.0 - 8.0 */
+  -webkit-animation-direction: reverse; /* Safari 4.0 - 8.0 */
+  animation-name: animacao;
+  animation-duration: 0.5s;
+  animation-direction: reverse; 
+  box-shadow:9px 9px 9px 9px rgba(50, 50, 50, 50);
+}
+
+.quadrinho_trabalhos{
+  display: inline-block;
+  background-color: transparent;
+  width: 21.5%;
+  margin-bottom: 4%;
+  height: 30%;
+  margin-left: 2.3%;
+  
+}
+.quadrinho_trabalhos:hover{
+  box-shadow:4px 4px 4px 0px #000000;
+}
+
+.foto_agenda{
+  width: 100%;
+}
+.quadro_sobre_back{
+  background-color: #000;
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: white;
+  height: 500px;
+  margin-bottom: 20%;
+  text-align: center;
+  background-image: url("../imagens/madeira.jpg");
+
+}
+input{
+  height: 34px;
+}
+.quadro_sobre{
+ background-color: rgba(0,0,0,0.8);
+  color: white;
+  height: 500px;
+  margin-bottom: 20%;
+  text-align: center;
+  box-shadow:9px 9px 9px 9px rgba(50, 50, 50, 50);
+
+}
+.desc_sobre{
+  padding: 2%;
+}
+.sub_desc_sobre{
+  margin-top: 2%;
+}
+.desc_foto_agenda{
+padding: 2%;
+}
+.foto_henrique{
+  height: 120px;
+  margin-top: 3%;
+  margin-left: 10%;
+  border-radius: 4px; 
+  box-shadow:4px 4px 4px 0px #000000;
+  display: inline-block;
+  float: left;
+}
+.desc_foto_henrique{
+padding: 2%;
+display: inline-block;
+}
+.displayer{
+  margin-top: 4%;
+}
+}
+
+.foto_perfil{
+  display: inline-block;
+  vertical-align: top;
+  margin-top:8%;
+  background-color: black;
+  width: 9%;
+  margin-bottom: 10%;
+  margin-left: 14%;
+  height:auto;
+  border-radius: 10px;
+  box-shadow:9px 7px 5px rgba(50, 50, 50, 0.77);
+}
+.desc_foto_perfil{
+  display: inline-block;
+  vertical-align: top;
+  margin-top: 6%;
+  padding: 2%;
+  width: 40%;
+  margin-bottom: 10%;
+  margin-left: 2%;
+  height: auto;
+  border-radius: 10px;
+}
+.info_contato{
+  margin-top: 3%;
+  display: inline-block;
+  width:25%;
+  height:auto;
+  border-radius: 10px;
+  background-color: #E8E8E8;
+}
+.contato{
+  display: inline-block;
+  vertical-align: top;
+  margin-top: 0%;
+  padding: 2%;
+  width: 30%;
+  margin-bottom: 10%;
+  margin-left: 2%;
+  height: auto;
+  border-radius: 10px;
+}
+.item
+{
+  margin-top: 25%;
+}
+
+/*Tarefas*/
+.base{
+   background-color: #E8E8E8;
+  
+}
+.div_inicio{
+  margin-top: 2%;
+  width: auto;
+  height: 14%;
+}
+.img_header{
+  margin-top: 1%;
+  height: 19%;
+  width: 100%;
+  border-radius: 0px;
+  margin-bottom: -0.3%;
+  box-shadow:4px 4px 4px 4px rgba(50, 50,50, 50);
+
+}
+.div_header{
+	height: auto;
+	width: 100%;
+	border-radius: 3px;
+  font-family: Andale Mono, monospace;
+
+}
+
+.div_header h1{
+  padding-top: 3%;
+  font-size: 30px;
+}
+
+.row {
+  margin-left: 0px;
+  margin-right: 0px;
+}
+
+
+.foto{
+  margin-top:0%;
+  background-color: black;
+	width: 100%;
+	height: 200px;
+	border-radius: 10px;
+}
+.conteudo{
+  margin-top: 5%;
+  font-size: 13px;
+  display: inline-block;
+  vertical-align: top;
+  width: 100%;
+  transition:2s;
+  margin-left: auto;
+  margin-right: auto;
+  color: #696969;
+  font-family: Andale Mono, monospace;
+}
+.titulo_inicial{
+  text-align: center;
+}
+.conteudo-20{
+  display: inline-block;
+  vertical-align: top;
+  width:20%;
+  height:auto;
+  border-radius: 10px;
+  padding-bottom: 10px;
+  margin-top: 1.5%;
+}
+.titu{
+  text-align: center;
+  font-size: 34px;
+  margin-bottom: 10%;
+  margin-top: 7%;
+  padding-top: 3%;
+
+}
+.titu_sobre{
+  text-align: center;
+  font-size: 34px;
+  margin-bottom: 0%;
+  margin-top: 7%;
+  padding-top: 3%;
+}
+
+.conteudo-25{
+  display: inline-block;
+  width:25%;
+  margin-top: 1.5%;
+  height:auto;
+  border-radius: 10px;
+
+}
+
+.conteudo-25_1{
+  display: inline-block;
+  vertical-align: top;
+  width:25%;
+  margin-bottom: 10%;
+  height:auto;
+  border-radius: 10px;
+  padding-bottom: 10px;
+  padding-top: 20px;
+}
+
+.conteudo-55{
+  display: inline-block;
+  vertical-align: top;
+  width:51%;
+  height:auto;
+  border-radius: 10px;
+  padding-bottom: 10px;
+  background-color: ;
+}
+.conteudo-55 h1{
+  padding-bottom: 10px;
+  padding-top: 20px;
+}
+
+.quadro_tarefas{
+  height: 10%;
+  width: 90%;
+  margin-top: 7px;
+  margin-left: 4%;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin-bottom: 20px;
+  border-style: outset;
+  border-color: #778899;
+}
+
+
+.quadro_dentro{
+  margin: 7px;
+  padding-bottom: 2%;
+}
+
+.botao_excluir{
+margin-top:1%; 
+background-color: #CD3700;
+border-radius: 5%;
+width: 14%;
+height: 17%;
+float: right;
+border: 0px solid #fff;
+}
+
+.botao_fazer{
+margin-top:1%; 
+background-color: #B0E2FF;
+border-radius: 3px;
+width: 14%;
+height: 10%;
+float: right;
+border: 0px solid #fff;
+margin-right: 1%;
+}
+
+strong{
+  
+
+}
+.rodape { 
+  width: 100%;
+  height:80px ;
+  border-radius: 3px;
+  text-align:center;
+  bottom: 0;
+  text-align: center;
+} 
+
+
+
+@media screen and (min-width: 920px){
+
+.quadrinho_agenda{
+  width: 30%;
+  margin-bottom: 10%;
+  height: 420px;
+  margin-left: 2.3%;
+  
+}
+
+
+}
+
+
+
+
+
+
+
